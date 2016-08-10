@@ -70,7 +70,7 @@ public class Application {
     }
 
     private void initChromeDriver() {
-        Log.info("Driver is set to Chrome.");
+        Log.info("Driver is set to Chrome..");
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         ChromeDriver driver = new ChromeDriver();
         webDriver = driver;
