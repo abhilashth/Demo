@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite name="Automation Project">
+    <test name="================Tests=============">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.HomeTest"/>
+        </classes>
+    </test>
+</suite>

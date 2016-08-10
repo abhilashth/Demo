@@ -15,14 +15,6 @@ public class LoginPage extends BasePage {
         wait.waitTillElementDisplayed(LOGIN_PAGE_DIV, MAX_TIME);
     }
 
-    public boolean isErrorMessagePresent() {
-        return element.isElementDisplayed(ERROR_MESSAGE);
-    }
-
-    public String getLogoText() {
-        return element.getElement(LOGO).getAttribute("alt");
-    }
-
     /**
      * Method to login to app
      *
@@ -35,6 +27,14 @@ public class LoginPage extends BasePage {
         field.clearAndSetText(String.format(LOGIN_XPATH, "password"), password);
         item.click(String.format(LOGIN_XPATH, "submit"));
         return this;
+    }
+
+    public boolean isErrorMessagePresent() {
+        return element.isElementDisplayed(ERROR_MESSAGE);
+    }
+
+    public String getLogoText() {
+        return element.getElement(LOGO).getAttribute("alt");
     }
 
 }
