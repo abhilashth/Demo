@@ -6,7 +6,10 @@ Selenium Webdriver Code:
 
 1. Selenium webdriver with java bindings
 2. TestNG as unit test framework
-3. Running in windows(windows 11) environment
+3. Running in windows(windows 10) environment
+4. FireFox verion - 46.0.1
+5. Chrome verion - 51.0.2704.103 m
+6. IE verion - IE 11
 
 Imp: If you want to run in any of the specific browser(firefox/chrome/ie), then go to application.properties file and change the "browser" paramters.
      valid parameters are "firefox/chrome/ie".
